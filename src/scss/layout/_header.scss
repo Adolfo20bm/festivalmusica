@@ -10,19 +10,6 @@
 }
 
 .navegacion-principal {
-    background-color: red;
-    @include m.telefono {
-        background-color: blue;
-    }
-    @include m.telefono {
-        background-color: cornflowerblue;
-    }
-    @include m.telefono {
-        background-color: darkgreen;
-    }
-    @include m.telefono {
-        background-color: yellow;
-    }
     a {
         color: v.$blanco;
         font-size: 2.4rem;

@@ -1,5 +1,4 @@
 @use 'base/variables' as v;
-@use 'base/mixins' as m;
 
 .header {
     background-color: v.$verde;
@@ -17,10 +16,4 @@
             color: v.$amarillo;
         }
     }
-}
-.prueba {
-    @include m.heading;
-}
-.texto {
-    @include m.heading;
 }

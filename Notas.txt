@@ -15,4 +15,5 @@ npm i --save-dev gulp-sass
 - Corremos gulp 
 npx gulp css
 npm run css    esto si es que lo agregaste al package.json
-
+- Instalar plumber
+npm i --save-dev gulp-plumber

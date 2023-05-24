@@ -6,5 +6,7 @@ npm install SASS --save-dev
 npm i  ya que el archivo package.json es el que contiene todo y no lo debes borrar
 - Instalamos gulp
 npm i -D gulp
+- Lllamamos el gulpfile
+npx gulp primerTarea
 
 

@@ -4,6 +4,7 @@ npm install SASS
 npm install SASS --save-dev
 - Puedes borrar la carpeta node_modules y volver a instalarlo con
 npm i  ya que el archivo package.json es el que contiene todo y no lo debes borrar
-
+- Instalamos gulp
+npm i -D gulp
 
 

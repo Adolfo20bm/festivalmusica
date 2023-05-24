@@ -10,4 +10,9 @@ npm i -D gulp
 npx gulp primerTarea
 - Si quieres llamar desde el package.json
 npm run primerTarea
+- Instalar gulp-sass
+npm i --save-dev gulp-sass
+- Corremos gulp 
+npx gulp css
+npm run css    esto si es que lo agregaste al package.json
 

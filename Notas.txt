@@ -8,5 +8,6 @@ npm i  ya que el archivo package.json es el que contiene todo y no lo debes borr
 npm i -D gulp
 - Lllamamos el gulpfile
 npx gulp primerTarea
-
+- Si quieres llamar desde el package.json
+npm run primerTarea
 

@@ -17,3 +17,5 @@ npx gulp css
 npm run css    esto si es que lo agregaste al package.json
 - Instalar plumber
 npm i --save-dev gulp-plumber
+- Dependencia gulp-webp
+npm install --save-dev gulp-webp

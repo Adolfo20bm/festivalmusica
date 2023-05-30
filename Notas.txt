@@ -22,5 +22,7 @@ npm install --save-dev gulp-webp
 - Dependencia para aligerar imagenes 
 npm i --save-dev gulp-imagemin@7.1.0
 npm i --save-dev gulp-cache
+- Dependencia gulp-avif
+npm install --save-dev gulp-avif
 
 

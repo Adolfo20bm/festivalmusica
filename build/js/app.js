@@ -8,7 +8,7 @@ function iniciarApp() {
 
 function crearGaleria() {
     const galeria =  document.querySelector('.galeria-imagenes');
-    for (let i = 0; i < 12; i++) {
+    for (let i = 1; i <= 12; i++) {
         const imagen = document.createElement('picture');
         imagen.innerHTML = `
         <source srcset="build/img/thumb/${i}.avif" type="image/avif">

@@ -8,7 +8,8 @@ const cssnano = require('cssnano');
 const postcss = require('gulp-postcss');
 const sourcemaps = require('gulp-sourcemaps');
 
-
+// JavaScrip
+const terser = require('gulp-terser-js');
 
 // Imagenes 
 const cache = require('gulp-cache');
@@ -60,8 +61,10 @@ function versionAvif(done){
 
 function javascript(done) {
     src('src/js/**/*.js')
+        .pipe(sourcemaps.init())
+        .pipe(terser())
+        .pipe(sourcemaps.write('.'))
         .pipe(dest('build/js'));
-
     done();
 }
 

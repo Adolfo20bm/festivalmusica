@@ -28,6 +28,9 @@ npm install --save-dev gulp-avif
 npm i --save-dev cssnano autoprefixer postcss gulp-postcss
 - Dependencia sourcemaps
 npm i --save-dev gulp-sourcemaps
+- Dependencia tercer
+npm i gulp-terser-js
+
 
 
 

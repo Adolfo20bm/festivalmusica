@@ -24,5 +24,8 @@ npm i --save-dev gulp-imagemin@7.1.0
 npm i --save-dev gulp-cache
 - Dependencia gulp-avif
 npm install --save-dev gulp-avif
+- Dependencia cssnano
+npm i --save-dev cssnano autoprefixer postcss gulp-postcss
+
 
 

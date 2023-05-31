@@ -2,7 +2,7 @@
 
 Aprendiendo SASS
 
-Para Deploymend del proyecto solo se sube los archivos
+Para Deployment del proyecto solo se sube los archivos
 -build
 -index.html
 -video
